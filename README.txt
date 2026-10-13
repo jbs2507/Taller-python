@@ -1,30 +1,43 @@
-MENU DEL TALLER - PYTHON
+# Taller de Python
 
-REQUISITOS
+## Descripción
+Programa en Python con un menú para ejecutar tres ejercicios de programación.
+
+## Requisitos
 - Tener Python 3 instalado.
-- No requiere instalar librerias adicionales.
 
-COMO EJECUTAR
-1. Descomprime el ZIP.
-2. Abre la carpeta menu_taller.
-3. Abre una terminal o consola dentro de esa carpeta.
-4. Ejecuta:
-   python menu.py
+## Cómo ejecutar
+Abrir la terminal en la carpeta del proyecto y escribir:
 
-   En Windows tambien puedes probar:
-   py menu.py
+`python menu.py`
 
-OPCIONES
-1. Ejecuta la tabla de multiplicar de Juliana.
-2. Ejecuta el punto de Daniela (pendiente de completar).
-3. Ejecuta el punto de Emanuel (pendiente de completar).
-4. Sale del programa.
+Si no funciona, probar con:
 
-VALIDACION
-- El menu solo acepta las opciones 1, 2, 3 o 4.
-- La tabla de multiplicar vuelve a pedir el dato si no se escribe un numero entero.
-- Se muestran las multiplicaciones desde 1 hasta 10.
+`py menu.py`
 
-PARA AGREGAR LOS OTROS EJERCICIOS
-En daniela.py o emanuel.py, coloca tu ejercicio dentro de la funcion ejecutar().
-No borres el nombre ejecutar(), porque menu.py usa esa funcion para llamar cada punto.
+## Ejercicios
+
+1. **Punto 11 - Juliana: Tablas de multiplicar**
+   Pedir un número y mostrar su tabla del 1 al 10 usando un ciclo.
+
+2. **Punto 19 - Daniela: Adivina el número**
+   Adivinar un número secreto entre 1 y 20 en máximo cinco intentos. El programa indica si el número ingresado es mayor o menor.
+
+3. **Punto 21 - Emanuel: Pares e impares**
+   Crear una lista de 15 números enteros y separarlos en dos listas: una de pares y otra de impares.
+
+4. **Salir**
+   Terminar el programa.
+
+## Archivos
+- `menu.py`: menú principal.
+- `juliana.py`: punto 11.
+- `daniela.py`: punto 19.
+- `emanuel.py`: punto 21.
+
+## GitFlow
+- `main`: versión principal del proyecto.
+- `develop`: integración de los ejercicios.
+- `feature/punto11`: trabajo de Juliana.
+- `feature/punto19`: trabajo de Daniela.
+- `feature/punto21`: trabajo de Emanuel.
