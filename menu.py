@@ -8,7 +8,7 @@ def mostrar_menu():
     while True:
         print("\n========== MENU DEL TALLER ==========")
         print("1. Tabla de multiplicar (Juliana)")
-        print("2. Adivina el número (Daniiela)")
+        print("2. Adivina el número (Daniela)")
         print("3. Separar números pares e impares (Emanuel)")
         print("4. Salir")
         print("=====================================")
